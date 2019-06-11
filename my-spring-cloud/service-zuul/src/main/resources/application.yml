@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: service-zull
+server:
+  port: 8769
+
+zuul:
+  routes:
+    api-a:
+      path: /api-a/**
+      serviceId: service-ribbon
+    api-b:
+      path: /api-b/**
+      serviceId: service-feign

@@ -1,0 +1,5 @@
+需要更改本机的host文件
+运行命令 java -jar eureka-server-0.0.1-SNAPSHOT.jar - -spring.profiles.active=peer2
+运行命令 java -jar eureka-server-0.0.1-SNAPSHOT.jar - -spring.profiles.active=peer1
+https://blog.csdn.net/forezp/article/details/81041101
+

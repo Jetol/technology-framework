@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SpringCloudLearning" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/eureka-server-high" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-spring-cloud" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springcloud-config" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springcloud-gateway" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/springcloud-sleuth" vcs="Git" />
+  </component>
+</project>
