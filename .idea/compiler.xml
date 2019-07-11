@@ -6,7 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="pig-monitor" />
+        <module name="pig-eureka" />
+        <module name="pig-auth" />
+        <module name="pig-zipkin" />
+        <module name="pig-codegen" />
         <module name="technology-framework" />
+        <module name="pig-config" />
+        <module name="pig-upms-biz" />
+        <module name="pig-upms-api" />
+        <module name="pig-common-core" />
+        <module name="pig-common-security" />
+        <module name="pig-gateway" />
+        <module name="pig-common-log" />
       </profile>
     </annotationProcessing>
   </component>

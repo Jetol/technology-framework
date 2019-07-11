@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/pig" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-common/pig-common-core" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-common/pig-common-log" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-common/pig-common-security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-upms" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-upms/pig-upms-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-upms/pig-upms-biz" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-visual" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-visual/pig-codegen" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-visual/pig-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/pig/pig-visual/pig-zipkin" charset="UTF-8" />
+  </component>
+</project>
