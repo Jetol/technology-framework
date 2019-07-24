@@ -1,0 +1,519 @@
+2019-07-24 09:22:37,309 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-07-24 09:22:37,371 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-07-24 09:22:37,372 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:22:37,373 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:22:37,373 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:22:37,374 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 09:22:37,374 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:22:37,374 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:22:37,374 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:22:37,395 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$15da16c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 09:22:37,412 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-07-24 09:22:37,415 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-07-24 09:22:37,417 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-07-24 09:22:37,528 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-07-24 09:22:37,602 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-07-24 09:22:37,836 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-24 09:22:37,836 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-24 09:22:37,959 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-24 09:22:37,960 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-24 09:22:38,184 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:22:38,222 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-07-24 09:22:38,222 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-07-24 09:22:38,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-07-24 09:22:38,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-07-24 09:22:38,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-07-24 09:22:38,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-07-24 09:22:38,223 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-07-24 09:22:38,344 [main] WARN  [c.n.d.s.t.decorator.RetryableEurekaHttpClient] RetryableEurekaHttpClient.java:128 - Request execution failure with status code 401; retrying on another server if available
+2019-07-24 09:22:38,347 [main] ERROR [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:990 - DiscoveryClient_PIG-AUTH/192.168.0.159:pig-auth:3000 - was unable to refresh its cache! status = Cannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$6.execute(EurekaHttpClientDecorator.java:137)
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
+	at com.netflix.discovery.DiscoveryClient.getAndStoreFullRegistry(DiscoveryClient.java:1069)
+	at com.netflix.discovery.DiscoveryClient.fetchRegistry(DiscoveryClient.java:983)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:430)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:276)
+	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
+	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:274)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration$$EnhancerBySpringCGLIB$$798065c5.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration$$EnhancerBySpringCGLIB$$798065c5$$FastClassBySpringCGLIB$$c3dd5b2c.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$EurekaClientConfiguration$$EnhancerBySpringCGLIB$$798065c5.eurekaClient(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:509)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1251)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1171)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:845)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.pig4cloud.pig.auth.PigAuthApplication.main(PigAuthApplication.java:34)
+2019-07-24 09:22:38,348 [main] WARN  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:297 - Using default backup registry implementation which does not do anything.
+2019-07-24 09:22:38,350 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1335 - Not registering with Eureka server per configuration
+2019-07-24 09:22:38,356 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1563931358354 with initial instances count: 0
+2019-07-24 09:22:38,385 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application PIG-AUTH with eureka with status UP
+2019-07-24 09:22:38,393 [main] INFO  [o.s.b.a.l.ConditionEvaluationReportLoggingListener] ConditionEvaluationReportLoggingListener.java:135 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-24 09:22:38,410 [main] ERROR [org.springframework.boot.SpringApplication] SpringApplication.java:821 - Application run failed
+java.lang.IllegalStateException: No instances found of configserver (pig-config)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider.getConfigServerInstances(ConfigServerInstanceProvider.java:48)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.refresh(DiscoveryClientConfigServiceBootstrapConfiguration.java:101)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.startup(DiscoveryClientConfigServiceBootstrapConfiguration.java:87)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.onApplicationEvent(DiscoveryClientConfigServiceBootstrapConfiguration.java:79)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.pig4cloud.pig.auth.PigAuthApplication.main(PigAuthApplication.java:34)
+2019-07-24 09:22:38,413 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:65 - Unregistering application PIG-AUTH with eureka with status DOWN
+2019-07-24 09:22:38,415 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-07-24 09:22:38,425 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-07-24 09:22:38,428 [main] ERROR [org.springframework.boot.SpringApplication] SpringApplication.java:821 - Application run failed
+java.lang.IllegalStateException: No instances found of configserver (pig-config)
+	at org.springframework.cloud.config.client.ConfigServerInstanceProvider.getConfigServerInstances(ConfigServerInstanceProvider.java:48)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.refresh(DiscoveryClientConfigServiceBootstrapConfiguration.java:101)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.startup(DiscoveryClientConfigServiceBootstrapConfiguration.java:87)
+	at org.springframework.cloud.config.client.DiscoveryClientConfigServiceBootstrapConfiguration.onApplicationEvent(DiscoveryClientConfigServiceBootstrapConfiguration.java:79)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:402)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:359)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:896)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:552)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311)
+	at org.springframework.boot.builder.SpringApplicationBuilder.run(SpringApplicationBuilder.java:139)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.bootstrapServiceContext(BootstrapApplicationListener.java:203)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:114)
+	at org.springframework.cloud.bootstrap.BootstrapApplicationListener.onApplicationEvent(BootstrapApplicationListener.java:71)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:75)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:53)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:340)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:304)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1213)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1202)
+	at com.pig4cloud.pig.auth.PigAuthApplication.main(PigAuthApplication.java:34)
+2019-07-24 09:23:58,771 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-07-24 09:23:58,839 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-07-24 09:23:58,840 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:23:58,841 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:23:58,841 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:23:58,842 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 09:23:58,842 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:23:58,842 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:23:58,842 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:23:58,863 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49bbef92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 09:23:58,880 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-07-24 09:23:58,883 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-07-24 09:23:58,885 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-07-24 09:23:58,995 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-07-24 09:23:59,058 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-07-24 09:23:59,276 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-24 09:23:59,277 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-24 09:23:59,411 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-24 09:23:59,411 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-24 09:23:59,629 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:23:59,669 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-07-24 09:23:59,669 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-07-24 09:23:59,670 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-07-24 09:23:59,670 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-07-24 09:23:59,670 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-07-24 09:23:59,670 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-07-24 09:23:59,670 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-07-24 09:23:59,983 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-07-24 09:23:59,986 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1335 - Not registering with Eureka server per configuration
+2019-07-24 09:23:59,992 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1563931439990 with initial instances count: 1
+2019-07-24 09:24:00,020 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application PIG-AUTH with eureka with status UP
+2019-07-24 09:24:00,468 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: pig-auth-1
+2019-07-24 09:24:00,469 [main] INFO  [com.pig4cloud.pig.auth.PigAuthApplication] SpringApplication.java:650 - The following profiles are active: dev
+2019-07-24 09:24:01,398 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-24 09:24:01,400 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 09:24:01,422 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 11ms. Found 0 repository interfaces.
+2019-07-24 09:24:01,498 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-24 09:24:01,572 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-24 09:24:01,834 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=3c262d16-f227-3a69-8f04-991cb5483df0
+2019-07-24 09:24:01,851 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-07-24 09:24:01,870 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-07-24 09:24:01,870 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-07-24 09:24:01,870 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 09:24:01,870 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 09:24:01,870 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:24:01,871 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:24:01,871 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 09:24:01,871 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:24:01,871 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 09:24:01,882 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-07-24 09:24:02,147 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2da1ec95] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 09:24:02,225 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$49bbef92] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 09:24:02,232 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$729e7ef4] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 09:24:02,566 [main] WARN  [io.undertow.websockets.jsr] Bootstrap.java:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-07-24 09:24:02,596 [main] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring embedded WebApplicationContext
+2019-07-24 09:24:02,596 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:283 - Root WebApplicationContext: initialization completed in 2114 ms
+2019-07-24 09:24:02,804 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-24 09:24:02,805 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-24 09:24:02,816 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@187df588
+2019-07-24 09:24:02,910 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-07-24 09:24:02,910 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-07-24 09:24:04,195 [main] INFO  [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:74 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-07-24 09:24:04,195 [main] INFO  [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:74 - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-07-24 09:24:05,301 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-24 09:24:05,302 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-24 09:24:05,499 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 09:24:06,320 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21298c3a, org.springframework.security.web.context.SecurityContextPersistenceFilter@3b870ed3, org.springframework.security.web.header.HeaderWriterFilter@495cac83, org.springframework.security.web.authentication.logout.LogoutFilter@5f804b36, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@2cc3b0a7, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@41fbe8c0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@621a7d83, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a3c541e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f63219e, org.springframework.security.web.session.SessionManagementFilter@48149568, org.springframework.security.web.access.ExceptionTranslationFilter@443819d5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6da76bb1]
+2019-07-24 09:24:06,327 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@377b773c, org.springframework.security.web.context.SecurityContextPersistenceFilter@482c8db4, org.springframework.security.web.header.HeaderWriterFilter@2d73aa17, org.springframework.security.web.authentication.logout.LogoutFilter@4b90a402, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@348c00d9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@41f274d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@18213a65, org.springframework.security.web.session.SessionManagementFilter@2e1c3b8f, org.springframework.security.web.access.ExceptionTranslationFilter@369958b0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@260af8f7]
+2019-07-24 09:24:06,529 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 21 endpoint(s) beneath base path '/actuator'
+2019-07-24 09:24:06,997 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-07-24 09:24:07,003 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-07-24 09:24:07,195 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-07-24 09:24:07,203 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-07-24 09:24:07,206 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-24 09:24:07,206 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-24 09:24:07,206 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-24 09:24:07,206 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-24 09:24:07,293 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:24:07,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-07-24 09:24:07,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-07-24 09:24:07,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-07-24 09:24:07,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-07-24 09:24:07,294 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-07-24 09:24:07,295 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-07-24 09:24:07,295 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-07-24 09:24:07,385 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-07-24 09:24:07,386 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 30
+2019-07-24 09:24:07,389 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-24 09:24:07,391 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1563931447391 with initial instances count: 1
+2019-07-24 09:24:07,398 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application PIG-AUTH with eureka with status UP
+2019-07-24 09:24:07,399 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1563931447399, current=UP, previous=STARTING]
+2019-07-24 09:24:07,402 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_PIG-AUTH/192.168.0.159:pig-auth:3000: registering service...
+2019-07-24 09:24:07,444 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_PIG-AUTH/192.168.0.159:pig-auth:3000 - registration status: 204
+2019-07-24 09:24:07,454 [main] INFO  [org.xnio] Xnio.java:104 - XNIO version 3.3.8.Final
+2019-07-24 09:24:07,466 [main] INFO  [org.xnio.nio] NioXnio.java:55 - XNIO NIO Implementation Version 3.3.8.Final
+2019-07-24 09:24:07,523 [main] INFO  [o.s.b.w.embedded.undertow.UndertowServletWebServer] UndertowServletWebServer.java:144 - Undertow started on port(s) 3000 (http) with context path ''
+2019-07-24 09:24:07,523 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 3000
+2019-07-24 09:24:07,524 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 3000
+2019-07-24 09:24:07,525 [main] INFO  [com.pig4cloud.pig.auth.PigAuthApplication] StartupInfoLogger.java:59 - Started PigAuthApplication in 10.223 seconds (JVM running for 11.065)
+2019-07-24 09:24:07,819 [RMI TCP Connection(4)-127.0.0.1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2019-07-24 09:24:07,821 [RMI TCP Connection(6)-127.0.0.1] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 09:24:07,821 [RMI TCP Connection(6)-127.0.0.1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:524 - Initializing Servlet 'dispatcherServlet'
+2019-07-24 09:24:07,841 [RMI TCP Connection(6)-127.0.0.1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:546 - Completed initialization in 20 ms
+2019-07-24 09:24:07,958 [RMI TCP Connection(4)-127.0.0.1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2019-07-24 09:24:07,996 [RMI TCP Connection(4)-127.0.0.1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://192.168.0.159:8888/
+2019-07-24 09:24:08,085 [RMI TCP Connection(4)-127.0.0.1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=pig-auth, profiles=[dev], label=null, version=null, state=null
+2019-07-24 09:24:08,222 [parallel-1] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2019-07-24 09:24:08,224 [parallel-1] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2019-07-24 09:24:09,319 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@23cb8fcb}] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: pig-zipkin.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-24 09:24:09,353 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@23cb8fcb}] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] ShutdownEnabledTimer.java:58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-zipkin
+2019-07-24 09:24:09,353 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@23cb8fcb}] INFO  [com.netflix.loadbalancer.BaseLoadBalancer] BaseLoadBalancer.java:197 - Client: pig-zipkin instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-zipkin,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-07-24 09:24:09,360 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@23cb8fcb}] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:222 - Using serverListUpdater PollingServerListUpdater
+2019-07-24 09:24:09,363 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@23cb8fcb}] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:150 - DynamicServerListLoadBalancer for client pig-zipkin initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-zipkin,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@74251434
+2019-07-24 09:29:07,304 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:34:07,315 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:39:07,325 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:44:07,335 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:49:07,345 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:54:07,354 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 09:59:07,364 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:04:07,374 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:09:07,384 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:14:07,394 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:19:07,404 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:24:07,414 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:29:07,424 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:34:07,433 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:39:07,443 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:44:07,453 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:49:07,462 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:54:07,472 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 10:59:07,482 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:04:07,492 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:09:07,502 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:33:46,065 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-07-24 11:33:46,128 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-07-24 11:33:46,129 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrap [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:46,130 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:46,130 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:46,131 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 11:33:46,131 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:46,131 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource applicationConfig: [classpath:/bootstrap.yml] [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:46,131 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:46,150 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f7d5378f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 11:33:46,167 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-07-24 11:33:46,170 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-07-24 11:33:46,172 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-07-24 11:33:46,279 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-07-24 11:33:46,340 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-07-24 11:33:46,541 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-24 11:33:46,541 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-24 11:33:46,661 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-24 11:33:46,661 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-24 11:33:46,875 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:33:46,913 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-07-24 11:33:46,913 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-07-24 11:33:46,914 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-07-24 11:33:46,914 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-07-24 11:33:46,914 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-07-24 11:33:46,914 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-07-24 11:33:46,914 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-07-24 11:33:47,218 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-07-24 11:33:47,221 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1335 - Not registering with Eureka server per configuration
+2019-07-24 11:33:47,227 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1563939227226 with initial instances count: 1
+2019-07-24 11:33:47,256 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application PIG-AUTH with eureka with status UP
+2019-07-24 11:33:47,679 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesConfiguration] EnableEncryptablePropertiesConfiguration.java:69 - Bootstraping jasypt-string-boot auto configuration in context: pig-auth-1
+2019-07-24 11:33:47,679 [main] INFO  [com.pig4cloud.pig.auth.PigAuthApplication] SpringApplication.java:650 - The following profiles are active: dev
+2019-07-24 11:33:48,658 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:244 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-07-24 11:33:48,660 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:126 - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-24 11:33:48,684 [main] INFO  [o.s.d.r.config.RepositoryConfigurationDelegate] RepositoryConfigurationDelegate.java:182 - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-07-24 11:33:48,760 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2019-07-24 11:33:48,837 [main] WARN  [o.springframework.boot.actuate.endpoint.EndpointId] EndpointId.java:131 - Endpoint ID 'hystrix.stream' contains invalid characters, please migrate to a valid format.
+2019-07-24 11:33:49,112 [main] INFO  [o.springframework.cloud.context.scope.GenericScope] GenericScope.java:295 - BeanFactory id=3c262d16-f227-3a69-8f04-991cb5483df0
+2019-07-24 11:33:49,132 [main] INFO  [c.u.j.c.EnableEncryptablePropertiesBeanFactoryPostProcessor] EnableEncryptablePropertiesBeanFactoryPostProcessor.java:50 - Post-processing PropertySource instances
+2019-07-24 11:33:49,151 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource bootstrapProperties [org.springframework.core.env.CompositePropertySource] to EncryptableEnumerablePropertySourceWrapper
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+2019-07-24 11:33:49,152 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource springCloudClientHostInfo [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:49,153 [main] INFO  [c.u.j.EncryptablePropertySourceConverter] EncryptablePropertySourceConverter.java:38 - Converting PropertySource defaultProperties [org.springframework.core.env.MapPropertySource] to EncryptableMapPropertySourceWrapper
+2019-07-24 11:33:49,164 [main] INFO  [c.u.j.filter.DefaultLazyPropertyFilter] DefaultLazyPropertyFilter.java:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+2019-07-24 11:33:49,437 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dbbb3492] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 11:33:49,514 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f7d5378f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 11:33:49,521 [main] INFO  [o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] PostProcessorRegistrationDelegate.java:330 - Bean 'org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration' of type [org.springframework.cloud.sleuth.instrument.web.client.TraceWebClientAutoConfiguration$TraceOAuthConfiguration$$EnhancerBySpringCGLIB$$20b7c6f1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-24 11:33:49,874 [main] WARN  [io.undertow.websockets.jsr] Bootstrap.java:68 - UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2019-07-24 11:33:49,904 [main] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring embedded WebApplicationContext
+2019-07-24 11:33:49,904 [main] INFO  [org.springframework.web.context.ContextLoader] ServletWebServerApplicationContext.java:283 - Root WebApplicationContext: initialization completed in 2210 ms
+2019-07-24 11:33:50,135 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-24 11:33:50,136 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-24 11:33:50,149 [main] INFO  [com.netflix.config.DynamicPropertyFactory] DynamicPropertyFactory.java:281 - DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@782143e8
+2019-07-24 11:33:50,247 [main] INFO  [c.u.j.resolver.DefaultLazyPropertyResolver] DefaultLazyPropertyResolver.java:31 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+2019-07-24 11:33:50,247 [main] INFO  [c.u.j.detector.DefaultLazyPropertyDetector] DefaultLazyPropertyDetector.java:30 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+2019-07-24 11:33:51,500 [main] INFO  [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:74 - Registered '/actuator/jolokia' to jolokia-actuator-endpoint
+2019-07-24 11:33:51,500 [main] INFO  [o.s.b.a.endpoint.web.ServletEndpointRegistrar] ServletEndpointRegistrar.java:74 - Registered '/actuator/hystrix.stream' to hystrix.stream-actuator-endpoint
+2019-07-24 11:33:52,655 [main] WARN  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:121 - No URLs will be polled as dynamic configuration sources.
+2019-07-24 11:33:52,655 [main] INFO  [com.netflix.config.sources.URLConfigurationSource] URLConfigurationSource.java:122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-07-24 11:33:52,855 [main] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:171 - Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-24 11:33:53,704 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: OrRequestMatcher [requestMatchers=[Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']]], [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2eebb07, org.springframework.security.web.context.SecurityContextPersistenceFilter@36d8ddc5, org.springframework.security.web.header.HeaderWriterFilter@75b5d09, org.springframework.security.web.authentication.logout.LogoutFilter@1631a614, org.springframework.security.oauth2.provider.client.ClientCredentialsTokenEndpointFilter@1f748d43, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@7f1581bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3d1703f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@731a5a39, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4ab1ff80, org.springframework.security.web.session.SessionManagementFilter@17287458, org.springframework.security.web.access.ExceptionTranslationFilter@140449d9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e82b631]
+2019-07-24 11:33:53,710 [main] INFO  [o.s.security.web.DefaultSecurityFilterChain] DefaultSecurityFilterChain.java:43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c1605e2, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d956649, org.springframework.security.web.header.HeaderWriterFilter@347074a9, org.springframework.security.web.authentication.logout.LogoutFilter@6dabad5c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@21b508a0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@16d7f503, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@71d3dfd5, org.springframework.security.web.session.SessionManagementFilter@136d1d58, org.springframework.security.web.access.ExceptionTranslationFilter@6193a9e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4d45b457]
+2019-07-24 11:33:53,919 [main] INFO  [o.s.b.actuate.endpoint.web.EndpointLinksResolver] EndpointLinksResolver.java:58 - Exposing 21 endpoint(s) beneath base path '/actuator'
+2019-07-24 11:33:54,348 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:906 - Shutting down DiscoveryClient ...
+2019-07-24 11:33:54,355 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:929 - Completed shut down of DiscoveryClient
+2019-07-24 11:33:54,582 [main] INFO  [o.s.cloud.netflix.eureka.InstanceInfoFactory] InstanceInfoFactory.java:72 - Setting initial instance status as: STARTING
+2019-07-24 11:33:54,588 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:365 - Initializing Eureka in region us-east-1
+2019-07-24 11:33:54,590 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:70 - Using JSON encoding codec LegacyJacksonJson
+2019-07-24 11:33:54,591 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:71 - Using JSON decoding codec LegacyJacksonJson
+2019-07-24 11:33:54,591 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:80 - Using XML encoding codec XStreamXml
+2019-07-24 11:33:54,591 [main] INFO  [c.n.discovery.provider.DiscoveryJerseyProvider] DiscoveryJerseyProvider.java:81 - Using XML decoding codec XStreamXml
+2019-07-24 11:33:54,678 [main] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:33:54,679 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:976 - Disable delta property : false
+2019-07-24 11:33:54,679 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:977 - Single vip registry refresh property : null
+2019-07-24 11:33:54,679 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:978 - Force full registry fetch : false
+2019-07-24 11:33:54,679 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:979 - Application is null : false
+2019-07-24 11:33:54,680 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:980 - Registered Applications size is zero : true
+2019-07-24 11:33:54,680 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:982 - Application version is -1: true
+2019-07-24 11:33:54,680 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1065 - Getting all instance registry info from the eureka server
+2019-07-24 11:33:54,771 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1074 - The response status is 200
+2019-07-24 11:33:54,772 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1288 - Starting heartbeat executor: renew interval is: 30
+2019-07-24 11:33:54,774 [main] INFO  [com.netflix.discovery.InstanceInfoReplicator] InstanceInfoReplicator.java:60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-07-24 11:33:54,776 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:465 - Discovery Client initialized at timestamp 1563939234776 with initial instances count: 1
+2019-07-24 11:33:54,783 [main] INFO  [o.s.c.n.e.serviceregistry.EurekaServiceRegistry] EurekaServiceRegistry.java:41 - Registering application PIG-AUTH with eureka with status UP
+2019-07-24 11:33:54,784 [main] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:1323 - Saw local status change event StatusChangeEvent [timestamp=1563939234784, current=UP, previous=STARTING]
+2019-07-24 11:33:54,805 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:844 - DiscoveryClient_PIG-AUTH/192.168.0.159:pig-auth:3000: registering service...
+2019-07-24 11:33:54,869 [main] INFO  [org.xnio] Xnio.java:104 - XNIO version 3.3.8.Final
+2019-07-24 11:33:54,888 [main] INFO  [org.xnio.nio] NioXnio.java:55 - XNIO NIO Implementation Version 3.3.8.Final
+2019-07-24 11:33:54,913 [DiscoveryClient-InstanceInfoReplicator-0] INFO  [com.netflix.discovery.DiscoveryClient] DiscoveryClient.java:853 - DiscoveryClient_PIG-AUTH/192.168.0.159:pig-auth:3000 - registration status: 204
+2019-07-24 11:33:54,968 [main] INFO  [o.s.b.w.embedded.undertow.UndertowServletWebServer] UndertowServletWebServer.java:144 - Undertow started on port(s) 3000 (http) with context path ''
+2019-07-24 11:33:54,969 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 3000
+2019-07-24 11:33:54,969 [main] INFO  [o.s.c.n.e.s.EurekaAutoServiceRegistration] EurekaAutoServiceRegistration.java:145 - Updating port to 3000
+2019-07-24 11:33:54,971 [main] INFO  [com.pig4cloud.pig.auth.PigAuthApplication] StartupInfoLogger.java:59 - Started PigAuthApplication in 9.932 seconds (JVM running for 11.221)
+2019-07-24 11:33:55,203 [RMI TCP Connection(2)-127.0.0.1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
+2019-07-24 11:33:55,206 [RMI TCP Connection(3)-127.0.0.1] INFO  [io.undertow.servlet] ServletContextImpl.java:364 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-07-24 11:33:55,207 [RMI TCP Connection(3)-127.0.0.1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:524 - Initializing Servlet 'dispatcherServlet'
+2019-07-24 11:33:55,236 [RMI TCP Connection(3)-127.0.0.1] INFO  [org.springframework.web.servlet.DispatcherServlet] FrameworkServlet.java:546 - Completed initialization in 29 ms
+2019-07-24 11:33:55,373 [RMI TCP Connection(2)-127.0.0.1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2019-07-24 11:33:55,431 [RMI TCP Connection(2)-127.0.0.1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://192.168.0.159:8888/
+2019-07-24 11:33:55,741 [RMI TCP Connection(2)-127.0.0.1] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=pig-auth, profiles=[dev], label=null, version=null, state=null
+2019-07-24 11:33:55,871 [parallel-1] INFO  [io.lettuce.core.EpollProvider] EpollProvider.java:68 - Starting without optional epoll library
+2019-07-24 11:33:55,873 [parallel-1] INFO  [io.lettuce.core.KqueueProvider] KqueueProvider.java:70 - Starting without optional kqueue library
+2019-07-24 11:33:56,578 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@49322d04}] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: pig-zipkin.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-24 11:33:56,613 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@49322d04}] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] ShutdownEnabledTimer.java:58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-zipkin
+2019-07-24 11:33:56,613 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@49322d04}] INFO  [com.netflix.loadbalancer.BaseLoadBalancer] BaseLoadBalancer.java:197 - Client: pig-zipkin instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-zipkin,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-07-24 11:33:56,620 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@49322d04}] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:222 - Using serverListUpdater PollingServerListUpdater
+2019-07-24 11:33:56,623 [AsyncReporter{org.springframework.cloud.sleuth.zipkin2.sender.RestTemplateSender@49322d04}] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:150 - DynamicServerListLoadBalancer for client pig-zipkin initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-zipkin,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@12cf1b3e
+2019-07-24 11:38:54,690 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:43:39,268 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@77b1170e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,270 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a23e7d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,272 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7a5440a0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,273 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@258bb22b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,275 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6442c671 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,276 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@70875d52 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,278 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@280e42a2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,279 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@506ca762 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,281 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@22ef8250 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:39,282 [XNIO-1 task-1] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@68c82692 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:43:54,700 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:48:54,710 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:53:42,857 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5ebe888c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,861 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@788654b7 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,866 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2a6d4594 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,871 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@bd52bd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,873 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7b93e270 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,876 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1fd56002 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,882 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@32032057 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,884 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61880a5c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,888 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@71af9c8a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:42,893 [XNIO-1 task-4] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@454e37cd (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 11:53:43,341 [XNIO-1 task-4] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: pig-upms.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-24 11:53:43,342 [XNIO-1 task-4] INFO  [com.netflix.util.concurrent.ShutdownEnabledTimer] ShutdownEnabledTimer.java:58 - Shutdown hook installed for: NFLoadBalancer-PingTimer-pig-upms
+2019-07-24 11:53:43,343 [XNIO-1 task-4] INFO  [com.netflix.loadbalancer.BaseLoadBalancer] BaseLoadBalancer.java:197 - Client: pig-upms instantiated a LoadBalancer: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms,current list of Servers=[],Load balancer stats=Zone stats: {},Server stats: []}ServerList:null
+2019-07-24 11:53:43,344 [XNIO-1 task-4] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:222 - Using serverListUpdater PollingServerListUpdater
+2019-07-24 11:53:43,370 [XNIO-1 task-4] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: pig-upms.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-24 11:53:43,372 [XNIO-1 task-4] INFO  [c.n.loadbalancer.DynamicServerListLoadBalancer] DynamicServerListLoadBalancer.java:150 - DynamicServerListLoadBalancer for client pig-upms initialized: DynamicServerListLoadBalancer:{NFLoadBalancer:name=pig-upms,current list of Servers=[192.168.0.159:4000],Load balancer stats=Zone stats: {defaultzone=[Zone:defaultzone;	Instance count:1;	Active connections count: 0;	Circuit breaker tripped count: 0;	Active connections per server: 0.0;]
+},Server stats: [[Server:192.168.0.159:4000;	Zone:defaultZone;	Total Requests:0;	Successive connection failure:0;	Total blackout seconds:0;	Last connection made:Thu Jan 01 08:00:00 CST 1970;	First connection made: Thu Jan 01 08:00:00 CST 1970;	Active Connections:0;	total failure count in last (1000) msecs:0;	average resp time:0.0;	90 percentile resp time:0.0;	95 percentile resp time:0.0;	min resp time:0.0;	max resp time:0.0;	stddev resp time:0.0]
+]}ServerList:org.springframework.cloud.netflix.ribbon.eureka.DomainExtractingServerList@35340d7d
+2019-07-24 11:53:43,923 [XNIO-1 task-4] INFO  [c.p.p.a.h.PigAuthenticationSuccessEventHandler] PigAuthenticationSuccessEventHandler.java:41 - 用户：com.pig4cloud.pig.common.security.service.PigUser@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: ROLE_1,sys_client_add,sys_client_del,sys_client_edit,sys_dept_add,sys_dept_del,sys_dept_edit,sys_dict_add,sys_dict_del,sys_dict_edit,sys_log_del,sys_menu_add,sys_menu_del,sys_menu_edit,sys_role_add,sys_role_del,sys_role_edit,sys_role_perm,sys_token_del,sys_user_add,sys_user_del,sys_user_edit 登录成功
+2019-07-24 11:53:44,347 [PollingServerListUpdater-1] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: pig-upms.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-24 11:53:54,720 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 11:58:54,730 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:03:54,740 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:08:54,750 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:13:54,760 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:18:54,770 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:23:54,780 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:28:54,790 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:33:54,800 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:38:54,810 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:43:54,820 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:48:54,830 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:53:54,840 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 12:58:54,850 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:03:54,859 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:08:54,869 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:13:54,879 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:18:54,889 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:23:54,899 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:28:54,909 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:33:54,919 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:38:54,929 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:43:54,939 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:44:57,584 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@73a57381 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,620 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2bdbcf88 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,622 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3aa5380 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,629 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5bcb110f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,635 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7de97534 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,647 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@8bb428e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,712 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59dc264a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,714 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5a9c0717 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,716 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6c6a99a5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,748 [XNIO-1 task-21] WARN  [com.zaxxer.hikari.pool.PoolBase] PoolBase.java:176 - HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3e171994 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2019-07-24 13:44:57,764 [XNIO-1 task-21] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://192.168.0.159:8888/
+2019-07-24 13:44:58,646 [XNIO-1 task-21] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=pig-auth, profiles=[dev], label=null, version=null, state=null
+2019-07-24 13:44:58,649 [PollingServerListUpdater-0] INFO  [com.netflix.config.ChainedDynamicProperty] ChainedDynamicProperty.java:115 - Flipping property: pig-zipkin.ribbon.ActiveConnectionsLimit to use NEXT property: niws.loadbalancer.availabilityFilteringRule.activeConnectionsLimit = 2147483647
+2019-07-24 13:48:54,948 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:50:15,892 [XNIO-1 task-12] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://192.168.0.159:8888/
+2019-07-24 13:50:16,037 [XNIO-1 task-12] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=pig-auth, profiles=[dev], label=null, version=null, state=null
+2019-07-24 13:53:54,958 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
+2019-07-24 13:55:15,930 [XNIO-1 task-30] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:207 - Fetching config from server at : http://192.168.0.159:8888/
+2019-07-24 13:55:16,540 [XNIO-1 task-30] INFO  [o.s.c.c.client.ConfigServicePropertySourceLocator] ConfigServicePropertySourceLocator.java:151 - Located environment: name=pig-auth, profiles=[dev], label=null, version=null, state=null
+2019-07-24 13:58:54,967 [AsyncResolver-bootstrap-executor-0] INFO  [c.n.d.shared.resolver.aws.ConfigClusterResolver] ConfigClusterResolver.java:43 - Resolving eureka endpoints via configuration
